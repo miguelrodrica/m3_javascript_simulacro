@@ -19,25 +19,31 @@
                             <h1 class="card-title fw-bold">RestorApp</h1>
                             <p class="card-text mt-1 mb-3">Sign Up to your new account</p>
                         </div>
-                        <label for="nameInputSignUp" class="card-text">Full Name</label>
-                        <input id="nameInputSignUp" class="form-control mt-1 mb-3" type="text" placeholder="e.g. John Doe" required>
-                        <label for="emailInputSignUp" class="card-text">Email Address</label>
-                        <input id="emailInputSignUp" class="form-control mt-1 mb-3" type="email" placeholder="name@example.com" required>
-                        <label for="passwordInputSignUp" class="card-text">Password</label>
-                        <input id="passwordInputSignUp" class="form-control mt-1 mb-3" type="password" placeholder="**********" required>
-                        <label for="roleInputSignUp" class="card-text">Select Role</label>
-                        <select class="form-select mt-1 mb-3" id="roleInputLogin">
-                            <option value="user">User</option>
-                            <option value="admin">Admin</option>
-                        </select>
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-success mt-1 mb-3">Sign Up</button>
-                        <p class="card-text mt-1">Do you already have an account? Login</p>
-                        </div>
+                        <form id="signupForm">
+                            <label for="nameInputSignUp" class="card-text">Full Name</label>
+                            <input id="nameInputSignUp" class="form-control mt-1 mb-3" type="text" placeholder="e.g. John Doe" required>
+                            <label for="emailInputSignUp" class="card-text">Email Address</label>
+                            <input id="emailInputSignUp" class="form-control mt-1 mb-3" type="email" placeholder="name@example.com" required>
+                            <label for="passwordInputSignUp" class="card-text">Password</label>
+                            <input id="passwordInputSignUp" class="form-control mt-1 mb-3" type="password" placeholder="**********" required>
+                            <!--<label for="roleInputSignUp" class="card-text">Select Role</label>
+                            <select class="form-select mt-1 mb-3" id="roleInputSignUp">
+                                <option value="user">User</option>
+                                <option value="admin">Admin</option>
+                            </select>-->
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-success mt-1 mb-3">Sign Up</button>
+                                <p class="card-text mt-1">
+                                    Do you already have an account?
+                                    <a href="./login.html">Login</a>
+                                </p>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+    <script src="./signup.js"></script>
 </body>
 </html>

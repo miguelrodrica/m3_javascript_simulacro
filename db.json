@@ -1,40 +1,104 @@
 {
-    "users":[{
-        "id": "1",
-        "name": "Miguel",
-        "email": "admin@mail.com",
-        "role": "admin",
-        "password": "1234"
+  "users": [
+    {
+      "id": "1",
+      "name": "Miguel",
+      "email": "admin@mail.com",
+      "password": "1234",
+      "role": "admin"
     },
     {
-        "id": "2",
-        "name": "Sergio Rodriguez",
-        "email": "sergio@mail.com",
-        "role": "user",
-        "password": "1234"  
+      "id": "2",
+      "name": "Sergio Rodriguez",
+      "email": "sergio@mail.com",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": "b56f",
+      "name": "Miguel Rodrica",
+      "email": "miguel@mail.com",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": "7839",
+      "name": "David Velez",
+      "email": "david@mail.com",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": "2903",
+      "name": "Laura Cano",
+      "email": "laura@mail.com",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": "fc5d",
+      "name": "Doris Yanet",
+      "email": "doris@mail.com",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": "3eaa",
+      "name": "Pablo Posada",
+      "email": "pablo@mail.com",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": "336c",
+      "name": "Tomas Ochoa",
+      "email": "tomas@mail.com",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": "f807",
+      "name": "Bray Perez",
+      "email": "bray@mail.com",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": "7485",
+      "name": "Jhon Jairo",
+      "email": "jhon@mail.com",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": "31a4",
+      "name": "Amelia Parra",
+      "email": "amelia@mail.com",
+      "password": "1234",
+      "role": "user"
     }
-    ],
-
-    "products": [{
-        "id": "101",
-        "name": "Classic Beef Burger",
-        "price": "$8.99",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elet.",
-        "image": "../images/burger-one.jpg"
+  ],
+  "products": [
+    {
+      "id": "101",
+      "name": "Classic Beef Burger",
+      "price": "$8.99",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elet.",
+      "image": "../images/burger-one.jpg"
     },
     {
-        "id": "102",
-        "name": "Double Bacon Melt",
-        "price": "$12.50",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elet.",
-        "image": "../images/burger-two.jpg"
+      "id": "102",
+      "name": "Double Bacon Melt",
+      "price": "$12.50",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elet.",
+      "image": "../images/burger-two.jpg"
     },
     {
-        "id": "103",
-        "name": "Golden Fries",
-        "price": "$3.99",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elet.",
-        "image": "../images/fries-three.jpg"
+      "id": "103",
+      "name": "Golden Fries",
+      "price": "$3.99",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elet.",
+      "image": "../images/fries-three.jpg"
     }
-    ]
+  ]
 }
