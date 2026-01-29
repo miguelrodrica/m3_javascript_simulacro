@@ -1,1 +1,40 @@
-{}
+{
+    "users":[{
+        "id": "1",
+        "name": "Miguel",
+        "email": "admin@mail.com",
+        "role": "admin",
+        "password": "1234"
+    },
+    {
+        "id": "2",
+        "name": "Sergio Rodriguez",
+        "email": "sergio@mail.com",
+        "role": "user",
+        "password": "1234"  
+    }
+    ],
+
+    "products": [{
+        "id": "101",
+        "name": "Classic Beef Burger",
+        "price": "$8.99",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elet.",
+        "image": "../images/burger-one.jpg"
+    },
+    {
+        "id": "102",
+        "name": "Double Bacon Melt",
+        "price": "$12.50",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elet.",
+        "image": "../images/burger-two.jpg"
+    },
+    {
+        "id": "103",
+        "name": "Golden Fries",
+        "price": "$3.99",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elet.",
+        "image": "../images/fries-three.jpg"
+    }
+    ]
+}
